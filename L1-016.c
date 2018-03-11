@@ -33,9 +33,6 @@ int main(void){
                 all_valid = false;
                 valid = false;
                 printf("%s\n", buffer);
-#ifdef DEBUG
-                putchar('!');
-#endif
                 break;
             }
         }
@@ -49,9 +46,6 @@ int main(void){
         if(buffer[17] != m_code){
             all_valid = false;
             printf("%s\n", buffer);
-#ifdef DEBUG
-                putchar('!');
-#endif
         }
     }
 
