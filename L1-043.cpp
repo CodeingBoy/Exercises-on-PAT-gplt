@@ -75,7 +75,7 @@ int main(){
         }
 
         int average_time = 0;
-        if(total_time >= 0){
+        if(total_time > 0){
             average_time = (int)round((double)total_time / lend_count);
         }
         cout << lend_count << " " << average_time << endl;
